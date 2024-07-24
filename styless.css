@@ -1,0 +1,141 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+    height:45px;
+    margin-left: 60%;
+}
+
+header nav ul{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 30vh;
+    flex-direction:row;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+header nav ul li{
+    padding-left: 10%;
+    list-style: none;  
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    background-color: whitesmoke;
+    border-style: groove;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.container img{
+    height: 350px;
+    border-radius: 80%;
+
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+}
+
+.container ul{
+    display:flex;
+    flex-direction:column;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+.container p{
+    margin-top: 10%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.container .btn{
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom:10px
+    transition;transform:2s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.container .btn:hover{
+    transform:scale(1.2);
+}
+
+.form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+}
+
+.form-container{
+    justify-content: left;
+    padding: 50px;
+}
+
+.form-container h1{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.form-container input[type=text]{
+    width:40%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.form-container textarea{
+    width:60%;
+    height:100%;
+    padding-bottom: 60px ;
+}
+
+.form-container .btn{
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom:10px
+  transition;transform:2s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-container .btn:hover{
+    transform:scale(1.2);
+}
+
+footer{
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    display:flex;
+    flex-direction: row;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+footer ul li{
+    padding-left: 10vh;
+}
+
+footer p{
+    margin-left: 50%;
+}

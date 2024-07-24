@@ -1,0 +1,129 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.link img{
+  float: left;
+  height: 300px;
+  width:300px;
+  border-radius: 50%;
+  margin-left:10%;
+  margin-top: 10%;
+}
+
+img{
+  transition: transform .2s;
+  width:250px;
+  height:250px;
+  background-color: rgb(173, 173, 237);
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+img:hover{
+  transform:scale(1.65);
+}
+
+.link button{
+  overflow: hidden;
+  position:absolute;
+  display: flex;
+  margin-top:50vh;
+  margin-left: 40%;
+}
+
+.link p{
+  overflow: hidden;
+  position:absolute;
+  display: flex;
+  margin-top:35vh;
+  margin-left: 40%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:large;
+}
+
+.link h2{
+  overflow: hidden;
+  position:absolute;
+  display: flex;
+  margin-top: 30vh;
+  margin-left: 40%;
+}
+
+.link button {
+  background-color: #8eb4c4;
+  color: white;
+  padding: 20px;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  position: fixed;
+  width: 150px;
+  height: auto;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.link button span{
+  cursor:pointer;
+  display:inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index:9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+footer{
+  display:flex;
+  justify-content: right;
+}
+  
+.form-container .btn {
+  background-color: #dfd9d9;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  border-style: dotted;
+}
+  
+.form-container .cancel {
+  background-color: #dfd9d9;
+  color: black;
+}
+  
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

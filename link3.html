@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+        <title>
+            FACEBOOK
+        </title>
+        <link rel="stylesheet" href="sty.css">
+    </head>
+    <body> 
+        <div class="link">
+             <img  src="https://theacademic.com/wp-content/uploads/2023/05/white-cute-robot-shopping-in-a-store-scaled.jpg" 
+            alt="robot.img" >
+        </div>
+        <div class="link">
+            <h2> ROBO </h2>
+            <p> <br>
+            A robot is a machine—especially one programmable by a computer—capable<br>
+            of carrying out a complex series of actions automatically. A robot can<br>
+            be guided by an external control device, or the control may be embedded within.<br>
+            </p>
+            <button type="open-button" onclick="openForm()">CHAT</button>
+        </div>
+    </body>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+    </style>
+    <body>
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>CHAT</h1>
+                
+                <label for="MSG"><b>MESSAGE</b></label>
+                <textarea  placeholder="Type..." name="MSG" required></textarea>
+                
+                <button type="submit" class="btn"><b>Send</b></button>
+                <button type="button" class="btn cancel" onclick="closeForm()"><b>Back</b></button>
+            </form>
+            <footer>
+                <p> @2024</p>
+            </footer>
+        </div>
+        
+        <script>
+            function openForm() {
+                document.getElementById("myForm").style.display = "block";
+            }
+            function closeForm() {
+                document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+        
+    </body>
+</html>
